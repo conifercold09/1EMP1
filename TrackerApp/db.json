@@ -1,0 +1,61 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "fullName": "Mark",
+      "email": "a@gmail.com",
+      "phone": "3343434",
+      "skills": [
+        {
+          "skillName" : "C#",
+          "experienceInYears": 1,
+          "profiency": "beginner"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "fullName": "Shyam",
+      "email": "abc@gmail.com",
+      "phone": "33434343",
+      "skills": [
+        {
+          "skillName" : "Java",
+          "experienceInYears": 2,
+          "profiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "fullName": "Ghansham",
+      "email": "abcdef@gmail.com",
+      "phone": "334343432",
+      "skills": [
+        {
+          "skillName" : ".Net",
+          "experienceInYears": 5,
+          "profiency": "advanced"
+        }
+      ]
+    }
+  ],
+
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
